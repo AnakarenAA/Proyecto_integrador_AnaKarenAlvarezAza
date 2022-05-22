@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @Component({
   selector: 'app-root',
