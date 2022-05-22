@@ -1,0 +1,24 @@
+/*estilo de la foto de perfil*/
+#avatar{
+    border-radius: 100%;
+    background-image: url(../../../assets/img/avatar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border: 5px white solid;
+    position: relative;
+    bottom: 80px;
+}
+
+@media (max-width: 575px) {
+    #avatar{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        bottom: 50px;
+    }
+}
+
+

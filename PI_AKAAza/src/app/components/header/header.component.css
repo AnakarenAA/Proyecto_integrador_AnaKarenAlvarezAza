@@ -1,0 +1,16 @@
+
+
+@media (min-width: 992px) {
+    #navbarText {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    #socials {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
