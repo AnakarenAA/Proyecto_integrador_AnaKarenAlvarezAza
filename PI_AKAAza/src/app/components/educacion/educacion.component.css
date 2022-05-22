@@ -1,0 +1,9 @@
+.row{
+    padding: 60px;
+}
+div{
+    background-color: rgb(197, 197, 238);
+}
+h2, h4{
+    display: inline-flex;
+} 
