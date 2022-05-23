@@ -2,3 +2,10 @@
     background-color: rgb(215, 215, 248);
     padding: 60px;
 }
+.contenedor{
+    width: auto;
+}
+.parte1{
+    display: inline-block;
+    text-align: justify;
+}
