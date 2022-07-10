@@ -1,7 +1,8 @@
 #banner {
-    width: 100%;
-}
-
-#banner img {
-    width: 100%;
+    min-width: 100%;
+    min-height: 315px;
+    background-image: url(../../../assets/icons/facebook_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

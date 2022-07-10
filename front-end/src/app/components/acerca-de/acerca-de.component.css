@@ -1,25 +1,67 @@
+/*Valores Globales*/
 .row{
     padding: 16px;
 }
 div{
-    background-color: rgb(79, 79, 122); 
-    color:white;
+    color:#DDDDDD;
     text-align: justify;
 }
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
 }
 /*estilo de la foto de perfil*/
 #fotodeperfil{
     border-radius: 100%;
-    position:absolute;
-    box-shadow: 3px 3px 3px grey;
-    width: 15%;
+    width: 100%;
+    border: solid 5px white;
+    position: relative;
+    bottom: 45px;
 }
-@media (max-width: 575px){
+/*estilo "Acerca de mí"*/
+.de-mi{
+    margin-top: 20px;
+}
+.de-mi h5{
+    color: #0099ff;
+    font-weight: 600;
+}
+.de-mi p{
+    color: rgb(143, 143, 143);
+}
+
+
+/*Ajustes MD screen*/
+@media (max-width: 990px){
     #fotodeperfil{
-        width: 30%;
+        width: 60%;
+    }
+    .c-flex {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*Ajustes Mobile*/
+@media (max-width: 768px){
+    #fotodeperfil{
+        width: 40%;
+    }
+    #acerca-de {
+        text-align: center;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .c-flex {
+        position: relative;
+        bottom: 50px;
+    }
+    .de-mi{
+        padding: 0px 25px;
+        margin-top: 20px;
     }
 }
