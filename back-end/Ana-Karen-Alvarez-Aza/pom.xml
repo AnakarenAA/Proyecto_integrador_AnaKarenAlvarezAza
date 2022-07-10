@@ -8,11 +8,11 @@
 		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.proyectointegrador</groupId>
-	<artifactId>AKAAZA</artifactId>
+	<groupId>com.portfolio</groupId>
+	<artifactId>Ana-Karen-Alvarez-Aza</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AKAAZA</name>
-	<description>Proyecto integrador Ana Karen Alvarez Aza</description>
+	<name>Ana-Karen-Alvarez-Aza</name>
+	<description>Proyecto integrador</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
